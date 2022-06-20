@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HeroCardsViewController" customModule="MageHeroes" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonCollectionView" destination="ENN-B9-21o" id="FDS-hv-KXO"/>
+                <outlet property="magName" destination="peM-2p-QwH" id="Fkn-ur-qcw"/>
+                <outlet property="mageHP" destination="yFE-Ab-d95" id="DYV-Uq-evX"/>
+                <outlet property="mageImage" destination="uff-ki-DKl" id="e3a-eN-KGi"/>
+                <outlet property="mageMP" destination="KB3-TR-Sme" id="Vcq-qi-z27"/>
+                <outlet property="view" destination="c22-O7-iKe" id="rB9-6k-G5q"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="626"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uff-ki-DKl">
+                    <rect key="frame" x="20" y="396" width="200" height="222"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="wga-Rn-3yj"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peM-2p-QwH">
+                    <rect key="frame" x="15" y="357" width="207" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Text " id="yPZ-m5-EOI">
+                        <font key="font" metaFont="system" size="32"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yFE-Ab-d95" customClass="HeroCardsPoint" customModule="MageHeroes" customModuleProvider="target">
+                    <rect key="frame" x="17" y="336" width="203" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KB3-TR-Sme" customClass="HeroCardsPoint" customModule="MageHeroes" customModuleProvider="target">
+                    <rect key="frame" x="17" y="330" width="203" height="7"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <scrollView wantsLayer="YES" fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nr-4e-MOx">
+                    <rect key="frame" x="12" y="9" width="213" height="281"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <clipView key="contentView" id="ct6-gn-P7D">
+                        <rect key="frame" x="1" y="1" width="211" height="279"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView translatesAutoresizingMaskIntoConstraints="NO" id="ENN-B9-21o">
+                                <rect key="frame" x="0.0" y="0.0" width="211" height="279"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="ZBE-ij-yXt">
+                                    <size key="itemSize" width="200" height="50"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="jQK-tm-Z5i">
+                        <rect key="frame" x="-100" y="-100" width="201" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="kbV-Qf-nbI">
+                        <rect key="frame" x="196" y="1" width="16" height="279"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <point key="canvasLocation" x="69" y="160"/>
+        </customView>
+        <collectionViewItem id="HHH-w2-05e" customClass="SpellCollectionViewCell" customModule="MageHeroes" customModuleProvider="target"/>
+    </objects>
+</document>

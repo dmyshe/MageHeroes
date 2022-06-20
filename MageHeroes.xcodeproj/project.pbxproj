@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322F7B20281BE0F500B9184C /* HeroCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F7B1F281BE0F500B9184C /* HeroCardsViewController.swift */; };
+		322F7B22281C2C3E00B9184C /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F7B21281C2C3E00B9184C /* Spell.swift */; };
+		322F7B26281C4ABA00B9184C /* HeroCardsPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F7B25281C4ABA00B9184C /* HeroCardsPoint.swift */; };
+		32404C41281ECB2B00732758 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404C40281ECB2B00732758 /* Game.swift */; };
+		32404C43281ED8F600732758 /* HeroCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32404C42281ED8F600732758 /* HeroCardsViewModel.swift */; };
+		32572A09281A9847007593E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32572A08281A9847007593E6 /* AppDelegate.swift */; };
+		32572A0B281A9847007593E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32572A0A281A9847007593E6 /* GameViewController.swift */; };
+		32572A0D281A984C007593E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32572A0C281A984C007593E6 /* Assets.xcassets */; };
+		32572A10281A984C007593E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32572A0E281A984C007593E6 /* Main.storyboard */; };
+		32572A18281A9941007593E6 /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32572A17281A9941007593E6 /* Mage.swift */; };
+		326C4042281E84FB00086C62 /* SpellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C4040281E84FB00086C62 /* SpellCollectionViewCell.swift */; };
+		326C4043281E84FB00086C62 /* SpellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326C4041281E84FB00086C62 /* SpellCollectionViewCell.xib */; };
+		32C68EFC2821633000C74EBE /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C68EFB2821633000C74EBE /* NSBezierPath.swift */; };
+		32C68F0128217A5500C74EBE /* GameOverPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C68F0028217A5500C74EBE /* GameOverPopup.swift */; };
+		32C68F0328217A8700C74EBE /* GameOverPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C68F0228217A8700C74EBE /* GameOverPopup.xib */; };
+		32FCD0B7281C7943006D1793 /* HeroCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FCD0B6281C7943006D1793 /* HeroCardsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		322F7B1F281BE0F500B9184C /* HeroCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardsViewController.swift; sourceTree = "<group>"; };
+		322F7B21281C2C3E00B9184C /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		322F7B25281C4ABA00B9184C /* HeroCardsPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardsPoint.swift; sourceTree = "<group>"; };
+		32404C40281ECB2B00732758 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		32404C42281ED8F600732758 /* HeroCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardsViewModel.swift; sourceTree = "<group>"; };
+		32572A05281A9847007593E6 /* MageHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MageHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32572A08281A9847007593E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32572A0A281A9847007593E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		32572A0C281A984C007593E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32572A0F281A984C007593E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32572A11281A984C007593E6 /* MageHeroes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MageHeroes.entitlements; sourceTree = "<group>"; };
+		32572A17281A9941007593E6 /* Mage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mage.swift; sourceTree = "<group>"; };
+		326C4040281E84FB00086C62 /* SpellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCollectionViewCell.swift; sourceTree = "<group>"; };
+		326C4041281E84FB00086C62 /* SpellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpellCollectionViewCell.xib; sourceTree = "<group>"; };
+		32C68EFB2821633000C74EBE /* NSBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
+		32C68F0028217A5500C74EBE /* GameOverPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverPopup.swift; sourceTree = "<group>"; };
+		32C68F0228217A8700C74EBE /* GameOverPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOverPopup.xib; sourceTree = "<group>"; };
+		32FCD0B6281C7943006D1793 /* HeroCardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroCardsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32572A02281A9847007593E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32404C44281F18E600732758 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32C68EFB2821633000C74EBE /* NSBezierPath.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		325729FC281A9847007593E6 = {
+			isa = PBXGroup;
+			children = (
+				32572A07281A9847007593E6 /* MageHeroes */,
+				32572A06281A9847007593E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32572A06281A9847007593E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32572A05281A9847007593E6 /* MageHeroes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32572A07281A9847007593E6 /* MageHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				32404C44281F18E600732758 /* Extension */,
+				32D73CE6281B022700ECCF46 /* Views */,
+				32572A19281AAB37007593E6 /* App */,
+				32572A1B281AAB99007593E6 /* GameScreen */,
+				32C68EFD2821797100C74EBE /* GameOverPopup */,
+				32572A1A281AAB4C007593E6 /* Supporting Files */,
+				32572A1C281AABF8007593E6 /* Model */,
+			);
+			path = MageHeroes;
+			sourceTree = "<group>";
+		};
+		32572A19281AAB37007593E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				32572A08281A9847007593E6 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		32572A1A281AAB4C007593E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32572A0C281A984C007593E6 /* Assets.xcassets */,
+				32572A0E281A984C007593E6 /* Main.storyboard */,
+				32572A11281A984C007593E6 /* MageHeroes.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32572A1B281AAB99007593E6 /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				32572A0A281A9847007593E6 /* GameViewController.swift */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		32572A1C281AABF8007593E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32404C40281ECB2B00732758 /* Game.swift */,
+				32572A17281A9941007593E6 /* Mage.swift */,
+				322F7B21281C2C3E00B9184C /* Spell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		326C4044281E8B3600086C62 /* SpellCell */ = {
+			isa = PBXGroup;
+			children = (
+				326C4040281E84FB00086C62 /* SpellCollectionViewCell.swift */,
+				326C4041281E84FB00086C62 /* SpellCollectionViewCell.xib */,
+			);
+			path = SpellCell;
+			sourceTree = "<group>";
+		};
+		32C68EFD2821797100C74EBE /* GameOverPopup */ = {
+			isa = PBXGroup;
+			children = (
+				32C68F0028217A5500C74EBE /* GameOverPopup.swift */,
+				32C68F0228217A8700C74EBE /* GameOverPopup.xib */,
+			);
+			path = GameOverPopup;
+			sourceTree = "<group>";
+		};
+		32D73CE6281B022700ECCF46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32FCD0A8281C5A81006D1793 /* HeroCards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32FCD0A8281C5A81006D1793 /* HeroCards */ = {
+			isa = PBXGroup;
+			children = (
+				322F7B1F281BE0F500B9184C /* HeroCardsViewController.swift */,
+				32404C42281ED8F600732758 /* HeroCardsViewModel.swift */,
+				322F7B25281C4ABA00B9184C /* HeroCardsPoint.swift */,
+				32FCD0B6281C7943006D1793 /* HeroCardsViewController.xib */,
+				326C4044281E8B3600086C62 /* SpellCell */,
+			);
+			path = HeroCards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32572A04281A9847007593E6 /* MageHeroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32572A14281A984C007593E6 /* Build configuration list for PBXNativeTarget "MageHeroes" */;
+			buildPhases = (
+				32572A01281A9847007593E6 /* Sources */,
+				32572A02281A9847007593E6 /* Frameworks */,
+				32572A03281A9847007593E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MageHeroes;
+			productName = MageHeroes;
+			productReference = 32572A05281A9847007593E6 /* MageHeroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325729FD281A9847007593E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					32572A04281A9847007593E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 32572A00281A9847007593E6 /* Build configuration list for PBXProject "MageHeroes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325729FC281A9847007593E6;
+			productRefGroup = 32572A06281A9847007593E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32572A04281A9847007593E6 /* MageHeroes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32572A03281A9847007593E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32572A0D281A984C007593E6 /* Assets.xcassets in Resources */,
+				32572A10281A984C007593E6 /* Main.storyboard in Resources */,
+				32C68F0328217A8700C74EBE /* GameOverPopup.xib in Resources */,
+				32FCD0B7281C7943006D1793 /* HeroCardsViewController.xib in Resources */,
+				326C4043281E84FB00086C62 /* SpellCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32572A01281A9847007593E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C68F0128217A5500C74EBE /* GameOverPopup.swift in Sources */,
+				32572A0B281A9847007593E6 /* GameViewController.swift in Sources */,
+				326C4042281E84FB00086C62 /* SpellCollectionViewCell.swift in Sources */,
+				32C68EFC2821633000C74EBE /* NSBezierPath.swift in Sources */,
+				322F7B20281BE0F500B9184C /* HeroCardsViewController.swift in Sources */,
+				322F7B26281C4ABA00B9184C /* HeroCardsPoint.swift in Sources */,
+				32572A18281A9941007593E6 /* Mage.swift in Sources */,
+				32572A09281A9847007593E6 /* AppDelegate.swift in Sources */,
+				322F7B22281C2C3E00B9184C /* Spell.swift in Sources */,
+				32404C41281ECB2B00732758 /* Game.swift in Sources */,
+				32404C43281ED8F600732758 /* HeroCardsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32572A0E281A984C007593E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32572A0F281A984C007593E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32572A12281A984C007593E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32572A13281A984C007593E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32572A15281A984C007593E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MageHeroes/MageHeroes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dmyshe.MageHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32572A16281A984C007593E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MageHeroes/MageHeroes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dmyshe.MageHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32572A00281A9847007593E6 /* Build configuration list for PBXProject "MageHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32572A12281A984C007593E6 /* Debug */,
+				32572A13281A984C007593E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32572A14281A984C007593E6 /* Build configuration list for PBXNativeTarget "MageHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32572A15281A984C007593E6 /* Debug */,
+				32572A16281A984C007593E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325729FD281A9847007593E6 /* Project object */;
+}
